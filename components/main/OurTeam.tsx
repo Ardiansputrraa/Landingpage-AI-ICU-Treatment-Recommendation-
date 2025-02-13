@@ -10,9 +10,9 @@ import Image from 'next/image';
 
 const teamMembers = [
   { name: "Chandra Prasetyo Utomo", role: "Department of Informatics Universitas YARSI", img: "/chandra.jpg" },
-  { name: "Fani Muh Ardian Saputra", role: "Software Engineer", img: "/ardian.jpg" },
-  { name: "Razi Rizzardi", role: "AI Engineer", img: "/razi.jpg" },
-  { name: "Kohei Ichikawa", role: "Division of Information Science NAIST", img: "/Kohei.jpg" },
+  { name: "Fani Muh Ardian Saputra", role: "Software Engineer", img: "/Ardian.jpg" },
+  { name: "Razi Rizzardi", role: "AI Engineer", img: "/Razi.jpg" },
+  { name: "Kohei Ichikawa", role: "Division of Information Science NAIST", img: "/kohei.jpg" },
   { name: "Nashuha Insani", role: "Department of Informatics", img: "/profile.jpeg" },
   { name: "Kundjanasith Thonglek", role: "Cybermedia Center Osaka University", img: "/profile.jpeg" },
   { name: "Soratouch Pornmaneerattanatri", role: "Division of Information Science NAIST", img: "/profile.jpeg" },
