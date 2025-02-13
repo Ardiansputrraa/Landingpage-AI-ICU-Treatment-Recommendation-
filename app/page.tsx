@@ -6,6 +6,7 @@ import Treatments from "@/components/main/features/Treatments";
 import Notification from "@/components/main/features/Notification";
 import Acknowledgment from "@/components/main/Acknowledgment";
 import Publications from "@/components/main/Publications";
+import Model from "@/components/main/Model";
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
         <Hero />
         <div id="About">
         <About />
+        </div>
+        <div id="AI-Model">
+        <Model />
         </div>
         <div id="Features">
         <Monitoring />

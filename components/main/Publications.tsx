@@ -31,7 +31,7 @@ const Publications = () => {
         href="https://ieeexplore.ieee.org/document/10730747"
         target="_blank"
         rel="noopener noreferrer"
-        className="w-full"
+        className="w-full hover:scale-105 hover:-translate-y-1 hover:shadow-xl hover:shadow-[#2A0E61]/80"
       >
         <motion.div
           className="p-6 sm:p-10 opacity-[0.9] rounded-xl w-full shadow-lg shadow-[#2A0E61]/50 bg-transparent backdrop-blur-md cursor-pointer transition-transform duration-300 hover:scale-105"
@@ -63,10 +63,6 @@ const Publications = () => {
           <p className="text-gray-500 text-base sm:text-lg mb-6 sm:mb-8">
             <span className="text-gray-500">Published in: </span> 2024 8th International Conference on Information
             Technology, Information Systems and Electrical Engineering (ICITISEE)
-          </p>
-          <p className="text-gray-700 text-base sm:text-lg font-bold">
-            <span className="text-gray-700">DOI: </span>
-            <span className="hover:text-cyan-600 hover:underline">10.1109/ICITISEE63424.2024.10730747</span>
           </p>
         </motion.div>
       </a>

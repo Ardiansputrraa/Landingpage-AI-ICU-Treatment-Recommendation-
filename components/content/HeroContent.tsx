@@ -43,8 +43,8 @@ const HeroContent = () => {
           transition={{ duration: 0.8 }}
           className="flex flex-col gap-6 font-bold text-white max-w-[800px] w-full"
         >
-          <span className="text-6xl">
-            <span className="text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          <span className="text-3xl md:text-6xl lg:text-6xl">
+            <span className="text-4xl md:text-6xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               AI-Powered ICU Assistance.{" "}
             </span>
