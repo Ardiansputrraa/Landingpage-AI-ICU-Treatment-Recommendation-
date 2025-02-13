@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  RxGithubLogo,
-  RxInstagramLogo,
-  RxLinkedinLogo,
-} from "react-icons/rx";
+import { RxGithubLogo, RxInstagramLogo, RxLinkedinLogo } from "react-icons/rx";
 import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
@@ -13,7 +9,7 @@ const Footer = () => {
       <div className="flex justify-between items-center border-b border-gray-800 pb-5">
         <div className="text-lg font-semibold text-gray-400">Follow us</div>
         <div className="flex space-x-4">
-        <a
+          <a
             href=""
             target="_blank"
             rel="noopener noreferrer"
@@ -55,11 +51,31 @@ const Footer = () => {
         <div>
           <h3 className="font-bold text-lg text-gray-400">About</h3>
           <ul className="mt-6 space-y-2 text-gray-500 text-sm">
-            <li><a className="hover:text-gray-200" href="">PRIMA</a></li>
-            <li><a className="hover:text-gray-200" href="">SENUSA</a></li>
-            <li><a className="hover:text-gray-200" href="">ASHOKA</a></li>
-            <li><a className="hover:text-gray-200" href="">DENTALEDU</a></li>
-            <li><a className="hover:text-gray-200" href="">VEUME</a></li>
+            <li>
+              <a className="hover:text-gray-200" href="">
+                PRIMA
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-gray-200" href="">
+                SENUSA
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-gray-200" href="">
+                ASHOKA
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-gray-200" href="">
+                DENTALEDU
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-gray-200" href="">
+                VEUME
+              </a>
+            </li>
           </ul>
         </div>
 
@@ -67,17 +83,39 @@ const Footer = () => {
         <div>
           <h3 className="font-bold text-lg text-gray-400">Product</h3>
           <ul className="mt-6 space-y-2 text-gray-500 text-sm">
-            <li><a className="hover:text-gray-200" href="">PRIMA</a></li>
-            <li><a className="hover:text-gray-200" href="">SENUSA</a></li>
-            <li><a className="hover:text-gray-200" href="">ASHOKA</a></li>
-            <li><a className="hover:text-gray-200" href="">DENTALEDU</a></li>
-            <li><a className="hover:text-gray-200" href="">VEUME</a></li>
+            <li>
+              <a className="hover:text-gray-200" href="">
+                PRIMA
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-gray-200" href="">
+                SENUSA
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-gray-200" href="">
+                ASHOKA
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-gray-200" href="">
+                DENTALEDU
+              </a>
+            </li>
+            <li>
+              <a className="hover:text-gray-200" href="">
+                VEUME
+              </a>
+            </li>
           </ul>
         </div>
 
         {/* Form Subscribe */}
         <div className="gap-4">
-          <h3 className="font-bold text-lg text-gray-400">Sign up for updates on our latest innovations</h3>
+          <h3 className="font-bold text-lg text-gray-400">
+            Sign up for updates on our latest innovations
+          </h3>
           <div className="mt-4">
             <input
               type="email"
@@ -85,7 +123,9 @@ const Footer = () => {
               className="w-full p-2 bg-transparent border border-gray-700 rounded-md text-white"
             />
             <p className="text-sm text-gray-600 mt-4">
-              I accept Google's Terms and Conditions and acknowledge that my information will be used in accordance with Google's Privacy Policy.
+              I accept Google&apos;s Terms and Conditions and acknowledge that
+              my information will be used in accordance with Google&apos;s
+              Privacy Policy.
             </p>
             <button className="w-full mt-6 p-2 bg-gray-900 hover:bg-gray-800 transition py-2 rounded-xl">
               Sign up
@@ -97,7 +137,7 @@ const Footer = () => {
       {/* Bagian Bawah - Copyright */}
       <div className="border-t border-gray-800 pt-5 text-center">
         <p className="text-sm text-gray-600 space-x-4">
-        &copy; PRIMA Dev 2025 Inc. All rights reserved
+          &copy; PRIMA Dev 2025 Inc. All rights reserved
         </p>
       </div>
     </div>

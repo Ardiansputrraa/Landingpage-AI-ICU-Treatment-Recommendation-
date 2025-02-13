@@ -7,6 +7,7 @@ import {
     zoomIn,
     zoomOut,
 } from "@/utils/motion";
+import Image from 'next/image';
 
 const Notification = () => {
   const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
@@ -34,7 +35,7 @@ const Notification = () => {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
       >
-          <img src="notification.png" className="w-full h-full object-cover" alt="Mockup HP" />
+          <Image src="notification.png" className="w-full h-full object-cover" alt="Mockup HP" />
       </motion.div>
       
     </div>

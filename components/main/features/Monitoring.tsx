@@ -7,6 +7,7 @@ import {
   slideInFromLeft,
   slideInFromRight,
 } from "@/utils/motion";
+import Image from 'next/image';
 
 const Monitoring = () => {
   const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
@@ -33,7 +34,7 @@ const Monitoring = () => {
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
       >
-          <img src="monitoring.png" className="w-full h-full object-cover" alt="Features Monitoring Patient" />
+          <Image src="monitoring.png" className="w-full h-full object-cover" alt="Features Monitoring Patient" />
       </motion.div>
       
     </div>

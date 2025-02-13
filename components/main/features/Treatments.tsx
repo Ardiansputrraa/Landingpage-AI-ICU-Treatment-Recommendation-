@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import { slideInFromBottom, slideInFromTop } from "@/utils/motion";
+import Image from 'next/image';
 
 const Treatments = () => {
   const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
@@ -18,7 +19,7 @@ const Treatments = () => {
         variants={slideInFromTop}
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
-      ><img
+      ><Image
             src="treatment.png"
             className="w-full h-full object-cover"
             alt="Mockup HP"
