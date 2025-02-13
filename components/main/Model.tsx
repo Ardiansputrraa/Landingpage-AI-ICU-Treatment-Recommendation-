@@ -27,7 +27,7 @@ const Model = () => {
             transition={{ duration: 0.8 }}
             className="flex flex-col gap-6 font-bold text-white max-w-[800px] w-full"
           >
-            <span className="font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+            <span className="font-bold text-3xl md:text-3xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               PRIMA Model D3QN
             </span>
           </motion.div>
@@ -36,7 +36,7 @@ const Model = () => {
             variants={slideInFromRight(0.8)}
             animate={inView ? "visible" : "hidden"}
             transition={{ duration: 0.8 }}
-            className="text-sm sm:text-lg text-gray-400 max-w-[600px] w-full px-4 sm:px-0"
+            className="text-sm sm:text-lg text-gray-400 max-w-[800px] w-full px-4 sm:px-0"
           >
             Our model is the most advanced ever made for treatment recommendations.
           </motion.p>
@@ -45,9 +45,9 @@ const Model = () => {
             variants={slideInFromBottom}
             animate={inView ? "visible" : "hidden"}
             transition={{ duration: 0.8 }}
-            className="w-full max-w-[500px] sm:max-w-[600px] md:max-w-[700px] lg:max-w-[800px]"
+            className="w-full max-w-[500px] sm:max-w-[600px] md:max-w-[700px] lg:max-w-[800px] mt-10 flex justify-center"
           >
-            <Image src="/model.svg" alt="Blackhole" className="w-full h-auto" />
+            <Image src="/model.svg" alt="Blackhole" className="w-[80%] h-auto hover:scale-105 hover:-translate-y-1" />
           </motion.div>
         </div>
       </motion.div>

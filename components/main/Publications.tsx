@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { useInView } from "react-intersection-observer";
-import { slideInFromBottom } from "@/utils/motion";
+import { zoomIn } from "@/utils/motion";
 
 const Publications = () => {
   const { ref, inView } = useInView({
@@ -35,12 +35,12 @@ const Publications = () => {
       >
         <motion.div
           className="p-6 sm:p-10 opacity-[0.9] rounded-xl w-full shadow-lg shadow-[#2A0E61]/50 bg-transparent backdrop-blur-md cursor-pointer transition-transform duration-300 hover:scale-105"
-          variants={slideInFromBottom}
+          variants={zoomIn}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
           <div className="flex flex-col sm:flex-row justify-between items-center">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold text-2xl sm:text-3xl md:text-4xl">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 font-bold text-3xl md:text-3xl lg:text-4xl">
               {startTyping && (
                 <Typewriter
                   key={key}
