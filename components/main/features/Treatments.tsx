@@ -37,7 +37,7 @@ const Treatments = () => {
           Result Treatments Recommendation
         </h2>
         <p className="text-gray-500 text-lg">
-          The recommendation is generated based on the analysis of the patient's
+          The recommendation is generated based on the analysis of the patients
           vital data, such as heart rate, blood pressure, oxygen saturation, and
           other medical parameters. The AI processes this data to provide
           suggestions regarding medical actions, such as fluid administration,

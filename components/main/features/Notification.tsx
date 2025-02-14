@@ -29,7 +29,7 @@ const Notification = () => {
           that indicate a critical condition, such as a sudden drop in blood
           pressure or an increase in heart rate beyond normal limits. With these
           notifications, medical personnel can respond quickly to provide the
-          necessary treatment, thereby increasing the patient's chances of
+          necessary treatment, thereby increasing the patients chances of
           survival.
         </p>
       </motion.div>
