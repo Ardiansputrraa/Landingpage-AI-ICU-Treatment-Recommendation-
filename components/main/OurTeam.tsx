@@ -13,7 +13,7 @@ const teamMembers = [
   { name: "Fani Muh Ardian Saputra", role: "Software Engineer", img: "/Ardian.jpg" },
   { name: "Razi Rizzardi", role: "AI Engineer", img: "/Razi.jpg" },
   { name: "Kohei Ichikawa", role: "Division of Information Science NAIST", img: "/kohei.jpg" },
-  { name: "Nashuha Insani", role: "Department of Informatics", img: "/profile.jpeg" },
+  { name: "Nashuha Insani", role: "Department of Informatics", img: "/nasuha.jpg" },
   { name: "Kundjanasith Thonglek", role: "Cybermedia Center Osaka University", img: "/profile.jpeg" },
   { name: "Soratouch Pornmaneerattanatri", role: "Division of Information Science NAIST", img: "/profile.jpeg" },
   { name: "Ummi Azizah Rachmawati", role: "Department of Informatics Universitas YARSI", img: "/ummi.jpg" },
