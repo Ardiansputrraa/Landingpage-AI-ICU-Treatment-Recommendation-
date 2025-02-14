@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import { slideInFromBottom, slideInFromTop } from "@/utils/motion";
-import Image from 'next/image';
+import Image from "next/image";
 
 const Treatments = () => {
   const { ref, inView } = useInView({ triggerOnce: false, threshold: 0.2 });
@@ -19,11 +19,12 @@ const Treatments = () => {
         variants={slideInFromTop}
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
-      ><Image
-            src="treatment.png"
-            className="w-full h-full object-cover"
-            alt="Mockup HP"
-          />
+      >
+        <Image
+          src="treatment.png"
+          className="w-full h-full object-cover"
+          alt="Mockup HP"
+        />
       </motion.div>
 
       <motion.div
@@ -36,9 +37,13 @@ const Treatments = () => {
           Result Treatments Recommendation
         </h2>
         <p className="text-gray-500 text-lg">
-          Nikmati pengalaman terbaik dengan aplikasi kami yang dilengkapi fitur
-          canggih dan tampilan menarik. Dengan antarmuka intuitif, semua fitur
-          mudah diakses kapan saja dan di mana saja.
+          The recommendation is generated based on the analysis of the patient's
+          vital data, such as heart rate, blood pressure, oxygen saturation, and
+          other medical parameters. The AI processes this data to provide
+          suggestions regarding medical actions, such as fluid administration,
+          infusion medications, antibiotics, or other medical interventions. The
+          goal is to assist medical personnel in making faster and more accurate
+          decisions for critical patient care.
         </p>
       </motion.div>
     </div>
