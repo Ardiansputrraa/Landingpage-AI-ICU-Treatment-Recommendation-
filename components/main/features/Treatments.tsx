@@ -12,39 +12,40 @@ const Treatments = () => {
   return (
     <div
       ref={ref}
-      className="flex flex-col md:flex-row items-center justify-center min-h-screen w-full px-6 md:px-16 gap-16"
+      className="flex flex-col md:flex-row items-center justify-center min-h-screen w-full px-6 md:px-12 lg:px-16 gap-12"
     >
       <motion.div
-        className="w-full h-full "
+        className="w-full md:w-1/2 flex flex-col items-center md:items-end text-center md:text-left"
+        variants={slideInFromBottom}
+        initial="hidden"
+        animate={inView ? "visible" : "hidden"}
+      >
+        <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-gray-400 mb-4 leading-tight">
+          Result Treatments Recommendation
+        </h2>
+        <p className="text-gray-500 text-base md:text-lg leading-relaxed">
+          The recommendation is generated based on the analysis of the patient's 
+          vital data, including heart rate, blood pressure, oxygen saturation, and other 
+          medical parameters. AI processes this data to provide accurate treatment suggestions, 
+          such as fluid administration, infusion medications, and antibiotics. 
+          This helps medical professionals make faster, well-informed decisions 
+          for critical patient care.
+        </p>
+      </motion.div>
+
+      <motion.div
+        className="w-full md:w-1/2 flex justify-center"
         variants={slideInFromTop}
         initial="hidden"
         animate={inView ? "visible" : "hidden"}
       >
         <Image
-          src="treatment.png"
-          className="w-full h-full object-cover"
+          src="/treatment.png"
           alt="Mockup HP"
+          width={500}
+          height={500}
+          className="max-w-full h-auto rounded-lg shadow-lg"
         />
-      </motion.div>
-
-      <motion.div
-        className="md:w-1/2 text-right"
-        variants={slideInFromBottom}
-        initial="hidden"
-        animate={inView ? "visible" : "hidden"}
-      >
-        <h2 className="text-2xl md:text-5xl font-bold text-gray-400 mb-4">
-          Result Treatments Recommendation
-        </h2>
-        <p className="text-gray-500 text-lg">
-          The recommendation is generated based on the analysis of the patients
-          vital data, such as heart rate, blood pressure, oxygen saturation, and
-          other medical parameters. The AI processes this data to provide
-          suggestions regarding medical actions, such as fluid administration,
-          infusion medications, antibiotics, or other medical interventions. The
-          goal is to assist medical personnel in making faster and more accurate
-          decisions for critical patient care.
-        </p>
       </motion.div>
     </div>
   );

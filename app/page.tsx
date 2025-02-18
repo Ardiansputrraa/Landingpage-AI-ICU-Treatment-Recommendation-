@@ -24,27 +24,26 @@ export default function Home() {
       <div className="flex flex-col gap-10 md:gap-20">
         <Hero />
         <div id="About">
-        <About />
+          <About />
         </div>
         <div id="AI-Model">
-        <Model />
+          <Model />
         </div>
         <div id="Features">
-        <Monitoring />
-        <Treatments />
-        <Notification />
+          <Monitoring />
+          <Notification />
+          <Treatments />
         </div>
         <div id="Acknowledgment">
-        <Acknowledgment />
+          <Acknowledgment />
         </div>
         <div id="Publications">
-        <Publications />
+          <Publications />
         </div>
         <div id="Our-Team">
-        <OurTeam />
+          <OurTeam />
         </div>
       </div>
     </main>
-    
   );
 }
